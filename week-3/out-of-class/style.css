@@ -1,0 +1,53 @@
+body {
+  line-height: '1.5';
+  background-color: 'white';
+  padding: 2em;
+  font-size: 20px;
+  }
+
+/* Testing it out */
+h1 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  color:#CD8C52;
+}
+a {
+  color:#0000FF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-line: underline;
+} 
+
+figure {
+  display: block;
+  background-color:#FCF7D3;
+  width: 700px;
+  text-align: center;
+}
+
+
+
+h1, h2 {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Average Sans', sans-serif;
+}
+
+#signed-by {
+  font-variant: small-caps;
+}
+.person {
+  color:#DEE8BE;
+}
+
+.definitions {
+  font-size: 1.5em;
+  font-family: 'Average Sans', sans-serif;
+} 
+
+.term {
+  font-variant: small-caps;
+}
