@@ -25,6 +25,9 @@ figure {
   text-align: center;
 }
 
+:lang(ja) { 
+  font-family: Osaka, serif;
+} 
 
 
 h1, h2 {
@@ -39,6 +42,7 @@ p {
 #signed-by {
   font-variant: small-caps;
 }
+
 .person {
   color:#DEE8BE;
 }
@@ -46,7 +50,6 @@ p {
 .definitions {
   font-size: 1.5em;
   font-family: 'Average Sans', sans-serif;
-} 
 
 .term {
   font-variant: small-caps;
