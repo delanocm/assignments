@@ -1,34 +1,37 @@
 // "use strict" tells the browser to enforce some rules about what can be in our JavaScript.
 "use strict";
 
-let my_name = "Ben";
-let your_name = "Milly";
+// Displays one call number.
+function displayCallNumber(call_number) {
 
-if (my_name === "Ben") {
-  renderOutput("That's me!");
-} else if (my_name === "Milly") {
-   renderOutput("Not me!");
-} else {
-  renderOutput("I must be someone else");
-}
- 
-function helloWorld() {
-  renderOutput("Hello World");
-}
+    // Every line should start with the call number, a space, and a dash,
+    // and another space.
+    let output = call_number = call_number + " - ";
 
-helloWorld();
 
-function helloName(name) {
-  renderOutput("Hello " + name);
-}
-helloName("Ben");
-helloName("Loch");
-helloName("Milly");
+    // Depending on what the call number prefix is, append the appropriate
+    // classification to the end of the output.
+    if (call_number.includes('PR')) {
+        output = output + " English literature";
+    } else if (call_number.includes('PS')) {
+        output = output + " American literature";
+    } else if (call_number.includes('PQ')) {
+        output = output + " French literature";
+    } else {
+        output = output + " Other literature";
+    }
 
-function todaysHours(hours) {
-  renderOutput(hours);
+    // Print out the output using the renderOutput() function
+    renderOutput(output);
 }
 
-// todasyHours("Tuesday: 9a -5p");
 
-hours.forEach(todaysHours);
+// Classify an array of call numbers.
+function classifyCallNumbers(call_numbers) {
+
+    // For each call number in the array, call the displayCallNumber() function.
+    call_numbers.forEach(displayCallNumber);
+}
+
+// Call the classifyCallNumbers() function using the call_numbers array found in data.js
+classifyCallNumbers(call_numbers);
