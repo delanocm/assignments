@@ -15,9 +15,10 @@ let hours = [
     "Sunday: closed"
 ];
 
+
  var i;
  for (hours <hours.length; i++;) {
-    dailyHours (hours[i])
+   dailyHours (hours[i])
 }
 
 function displaydailyHours(hours) {
@@ -30,8 +31,9 @@ function displaydailyHours(hours) {
 }
 
 
-function classifydailyHours(hours) {
+function dailyHours(hours) {
+  console.log("dailyHours")
   hours.forEach(displaydailyHours);
 }
 
-classifydailyHours(hours);
+dailyHours(hours);
