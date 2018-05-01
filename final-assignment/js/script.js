@@ -1,8 +1,8 @@
 "use strict";
 
 function renderOutput(output) {
-    let output_element = document.getElementById("output");
-    output_element.innerHTML += "<div>" + output + "</div>"
+    let output_element = document.getElementById("hours");
+    output_element.innerHTML += "<h3>" + output + "</h3>"
 }
 
 let hours = [
@@ -26,7 +26,6 @@ function displaydailyHours(hours) {
     renderOutput("On "+parts[0]+" the hours are "+parts[1]);
   }
 }
-
 
 function dailyHours(hours) {
   console.log("dailyHours")
