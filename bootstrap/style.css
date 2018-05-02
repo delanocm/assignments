@@ -1,0 +1,8 @@
+.row {
+ padding-top: 3em;
+}
+
+footer, footer h5 {
+  font-size: 90%;
+  color: white;
+}

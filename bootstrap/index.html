@@ -1,20 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Learning Bootstrap</title>
+  <meta charset="UTF-8">
+  <title>Learning Bootstrap</title>
 
-    <!-- This is the Bootstrap stylesheet. -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- This is the Bootstrap stylesheet. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Our stylesheet goes after we load Bootstrap -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Our stylesheet goes after we load Bootstrap -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-<!-- Bootstrap's required JavaScript -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <header class="bg-dark">
+  <div class="conatiner">
+<nav class="navbar navbar-dark navbar-expand-lg">
+  <a href="#" class="navbar-brand" href="#">My Library</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    
+  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Home</a></li>
+     <li class="nav-item">
+      <a href="#" class="nav-link">Search</a></li>
+     <li class="nav-item">
+      <a href="#" class="nav-link">Visit</a></li>
+     <li class="nav-item active">
+      <a href="#" class="nav-link">Sing</a></li>
+  </ul>
+    </div>
+  </nav>
+    </div>
+  </header>
+
+
+
+ 
+  <section class="container">
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h2>
+          This week at the library!
+        </h2>
+        <h4>
+          May 3rd
+        </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis est eu lobortis pulvinar. Vivamus iaculis massa sed mauris efficitur, et lobortis nibh iaculis. Phasellus egestas nisl mauris, nec aliquam libero feugiat a. Pellentesque
+          velit tortor, laoreet non hendrerit hendrerit, dapibus eu dolor.</p>
+        <h4>
+          May 7th
+        </h4>
+        <p>Morbi eu mauris venenatis, dictum sem in, mollis urna. Aenean ut lorem eu eros eleifend elementum. In auctor lacinia aliquet. Etiam egestas pulvinar felis, in ultricies augue iaculis in. Nullam id eleifend orci. </p>
+        <h4>
+          Ma8 13th
+        </h4>
+        <p>Mauris vitae lacinia justo. Nunc sed magna nisl. Morbi id imperdiet est, vel feugiat nunc. Nunc diam nunc, aliquam a arcu sit amet, facilisis molestie massa.Incidunt ligula lacinia lorem varius, et maximus massa aliquam. Phasellus eu diam porta,
+          ullamcorper nunc vel, dignissim ligula. Maecenas tempus justo lorem, at laoreet metus vulputate eget.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="this-week.jpg" class="img-fluid" alt="scene">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="library-renovation-plans.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="new-shelves.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="cat-in-bookcase.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-3">
+          <h5>
+            Main Hours
+          </h5>
+          <ul class="list-unstyled">
+            <li>Mon -Fri: 9am to 12am</li>
+            <li>Saturday: closed</li>
+            <li>Sunday: 6am to 6:30am</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>
+            Branch Hours
+          </h5>
+          <ul class="list-unstyled">
+            <li>Mon -Fri: 9am to 12am</li>
+            <li>Saturday: closed</li>
+            <li>Sunday: 6am to 6:30am</li>
+          </ul>
+
+        </div>
+        <div class="col-2">
+            <h5>
+              About Us
+            </h5>
+           <ul class="list-unstyled">
+           <li>Uno</li>
+              <li>Dos</li>
+              <li>Tres</li>
+            </ul>
+
+        </div>
+        <div class="col-2">
+          <ul class="list-unstyled">
+            <h5>
+              Contact Us
+            </h5>
+             <ul class="list-unstyled">
+            <li>666-666-6666</li>
+            <li>Email@hover.com</li>
+            <li> Twitter @librarytime</li>
+            </ul>
+        </div>
+        <div class="col-2">
+          <h5>
+            Find Us
+          </h5>
+          <p>
+            44 Fake Address Whipple, OH 4569
+          <img src="library-map.png" class="img-fluid" alt="map">
+            </p>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Bootstrap's required JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
